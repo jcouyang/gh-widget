@@ -1,8 +1,8 @@
 var r = new XMLHttpRequest();
 var widget = document.getElementById('github-widget');
-var username;
-if(location.pathname.length>1)
-  username = location.pathname.split('/')[1];
+var username = location.pathname.split('/');
+if(username.length > 2)
+  username = username[2];
 else if(widget.dataset.user)
   username = widget.dataset.user;
 
