@@ -11,7 +11,10 @@ r.open("GET", "https://gist.github.com.ru/jcouyang/aec5210828043d5505bd?username
 r.onreadystatechange = function () {
   if (r.readyState != 4 || r.status != 200) return;
   var response = JSON.parse(r.response.replace(/href=\\"\//g, 'href=\\"https://github.com/'));
-  if (response.error) return;
+  if (response.error) {
+    widget.innerHTML='Oooooops, please make sure your name in "data-user" is a real person on github';
+    return; 
+  }
   var result = response.result;
   var display = widget.dataset.display.split(',').forEach(function(d) {
     widget.innerHTML+=result[d];
