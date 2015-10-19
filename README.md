@@ -3,11 +3,15 @@ Hi, this is just a little hack to make your self a nice Github Contribution Widg
 place the following code anywhere you want to place this widget
 
 ```html
-  <div id="github-widget" data-user="your-github-username" data-display="pop_repos,calendar"></div>
+  <div id="github-widget" data-user="your-github-username" data-display="pop_repos,contribution,calendar"></div>
   <script src="https://gh-widget.oyanglul.us/index.js"></script>
 ```
 then BOOM! 🎆
 ![](Screen Shot.png)
+
+## Config
+- username: put your github username in `data-user` attribute
+- display: put any of `pop_repos` `contribution` `calendar` in `data-display` attribute,split by `,`
 
 ## Try
 - https://gh-widget.oyanglul.us/<your-github-username>
