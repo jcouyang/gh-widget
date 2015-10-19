@@ -13,39 +13,39 @@
     display: block;
 }
 #github-widget .boxed-group {
-  margin: 5px;
+    margin: 5px;
 }
-     #github-widget .boxed-group-inner {
-       margin: 0;
-      padding: 0px;
-       background: #FFF none repeat scroll 0% 0%;
-       border: 1px solid #D8D8D8;
-       border-bottom-left-radius: 3px;
-       border-bottom-right-radius: 3px;
-       color: #666;
-       font-size: 13px;
-       list-style: outside none none;
-       overflow: auto;
-     }
+#github-widget .boxed-group-inner {
+    margin: 0;
+    padding: 0px;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #D8D8D8;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #666;
+    font-size: 13px;
+    list-style: outside none none;
+    overflow: auto;
+}
 #github-widget ul li {
-  list-style: outside none none;
+    list-style: outside none none;
 }
 #github-widget .mini-repo-list > li:first-child .mini-repo-list-item {
-  border-top: 0 solid #E5E5E5;
+    border-top: 0 solid #E5E5E5;
 }
 #github-widget ul li a {
-  border-top: 0px none;
-  position: relative;
-display: block;
-padding: 6px 64px 6px 30px;
-font-size: 14px;
-border-top: 1px solid #E5E5E5;
-  color: #4078C0;
-text-decoration: none;
+    border-top: 0px none;
+    position: relative;
+    display: block;
+    padding: 6px 64px 6px 30px;
+    font-size: 14px;
+    border-top: 1px solid #E5E5E5;
+    color: #4078C0;
+    text-decoration: none;
 }
 #github-widget ul li a .repo-and-owner span {
-  color: #4078C0;
-  font-weight: bold
+    color: #4078C0;
+    font-weight: bold
 }
 #github-widget .no-description .mini-repo-list-item {
     padding-top: 17px;
@@ -57,14 +57,14 @@ text-decoration: none;
     margin-left: -20px;
     color: #666;
 }
-    
+
 #github-widget ul li a .mini-repo-list-item .repo-and-owner {
-  display: inline-block;
-max-width: 125px;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-vertical-align: top;
+    display: inline-block;
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
 }
 #github-widget .mini-repo-list-item .stars {
     position: absolute;
@@ -83,13 +83,13 @@ vertical-align: top;
 }
 #github-widget .contrib-footer {
     font-size: 15px;
-    padding: 0px 10px 20px;
+    padding: 0px 10px 11px;
 }
 #github-widget .text-muted {
     color: #767676;
 }
 #github-widget .left {
-  float: left;
+    float: left;
 }
 #github-widget .contrib-legend {
     float: right;
