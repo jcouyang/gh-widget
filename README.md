@@ -9,7 +9,10 @@ place the following code anywhere you want to place this widget
 then BOOM! 🎆
 ![](Screen Shot.png)
 
-## Example
+## Try
+- https://gh-widget.oyanglul.us/<your-github-username>
+
+## Live Example
 - http://blog.oyanglul.us/~jichao.ouyang.html
 
 ## How this works
