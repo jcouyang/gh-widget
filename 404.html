@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Github Contribution Widget</title>
   </head>
   <body>
-    <div id="github-widget" data-user="jcouyang" data-display="pop_repos,calendar">
+    <h1>Github Contribution Widget</h1>
+    <p>
+      Hi, this is just a little hack to make your self a nice Github Contribution Widget.
+    </p>
+
+    <p>
+      place the following code anywhere you want to place this widget
+    </p>
+
+    <div class="org-src-container">
+
+      <pre class="src src-html">&lt;<span style="color: #f99157;">div</span> <span style="color: #ffcc66;">id</span>=<span style="color: #66cccc;">"github-widget"</span> <span style="color: #ffcc66;">data-user</span>=<span style="color: #66cccc;">"your-github-username"</span> <span style="color: #ffcc66;">data-display</span>=<span style="color: #66cccc;">"pop_repos,calendar"</span>&gt;&lt;/<span style="color: #f99157;">div</span>&gt;
+&lt;<span style="color: #f99157;">script</span> <span style="color: #ffcc66;">src</span>=<span style="color: #66cccc;">"https://gh-widget.oyanglul.us/index.js"</span>&gt;&lt;/<span style="color: #f99157;">script</span>&gt;
+      </pre>
+    </div>
+
+    <p>
+      then BOOM! 🎆
+    </p>
+    <div id="github-widget" data-user="jcouyang" data-display="pop_repos,contribution,calendar">
     </div>
     <script src="./index.js"></script>
+    <h3>Or, go to https://gh-widget.oyanglul.us/your-github-name and see how your widget looks</h3>
   </body>
 </html>
