@@ -28,5 +28,5 @@ function appendCSS(name){
   document.getElementsByTagName("head")[0].appendChild(stylesheet)
 }
 
-appendCSS('/main.css');
+appendCSS('//gh-widget.oyanglul.us/main.css');
 appendCSS('//cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.css')
