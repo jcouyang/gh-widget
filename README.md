@@ -3,7 +3,7 @@ Hi, this is just a little hack to make your self a nice Github Contribution Widg
 place the following code anywhere you want to place this widget
 
 ```html
-  <div id="github-widget" data-user="your-github-username" data-display="pop_repos,contribution,calendar"></div>
+  <div id="github-widget" data-user="your-github-username" data-display="pop_repos,calendar"></div>
   <script src="https://gh-widget.oyanglul.us/index.js"></script>
 ```
 then BOOM! 🎆
@@ -11,13 +11,13 @@ then BOOM! 🎆
 
 ## Config
 - username: put your github username in `data-user` attribute
-- display: put any of `pop_repos` `contribution` `calendar` in `data-display` attribute,split by `,`
+- display: put any of `pop_repos` `calendar` in `data-display` attribute,split by `,`
 
 ## Try
 - https://gh-widget.oyanglul.us/<your-github-username>
 
 ## Live Example
-- http://blog.oyanglul.us/~jichao.ouyang.html
+- http://blog.oyanglul.us/jichao.ouyang.html
 
 ## How this works
 - Q:Where is the server?
