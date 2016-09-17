@@ -147,3 +147,74 @@
     clear: both;
     content: "";
 }
+
+#github-widget .pinned-repos-list {
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	list-style:none;
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	justify-content:space-between
+}
+#github-widget .pinned-repo-item {
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	width:356px
+}
+#github-widget .pinned-repo-item #github-widget .pinned-repository-handle {
+	padding-top:1px;
+	color:#767676
+}
+#github-widget .pinned-repo-item #github-widget .pinned-repository-handle:hover {
+	cursor:-webkit-grab;
+	cursor:grab
+}
+#github-widget .pinned-repo-item.is-dragging,#github-widget .pinned-repo-item.is-dragging #github-widget .pinned-repository-handle {
+	cursor:-webkit-grabbing;
+	cursor:grabbing
+}
+#github-widget .pinned-repo-item.is-dragging {
+	background-color:#f2f8fa
+}
+#github-widget .pinned-repo-item.sortable-ghost {
+	background-color:#f2f8fa;
+	opacity:0
+}
+#github-widget .pinned-repo-item.empty {
+	border-style:dashed;
+	border-width:1px;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	justify-content:center
+}
+#github-widget .pinned-repo-item-content {
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	width:100%;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	flex-direction:column
+}
+#github-widget .pinned-repo-desc {
+	-webkit-box-flex:1;
+	-webkit-flex:1 0 auto;
+	flex:1 0 auto
+}
+#github-widget .pinned-repo-language-color {
+	position:relative;
+	top:1px;
+	display:inline-block;
+	width:12px;
+	height:12px;
+	margin-left:12px;
+	border-radius:50%
+}
