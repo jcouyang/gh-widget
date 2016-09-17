@@ -218,3 +218,20 @@
 	margin-left:12px;
 	border-radius:50%
 }
+
+#github-widget .rounded-1 {
+    border-radius: 3px !important;
+}
+#github-widget .border-gray-dark {
+    border-color: #ddd !important;
+}
+#github-widget .border {
+    border: 1px #e5e5e5 solid !important;
+}
+
+#github-widget .p-3 {
+    padding: 12px !important;
+}
+#github-widget .mb-3 {
+    margin-bottom: 12px !important;
+}
